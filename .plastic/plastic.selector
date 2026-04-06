@@ -1,0 +1,4 @@
+repository "FPS_Combat_Validator/FPS_Combat_Validator@18967420559133@cloud"
+  path "/"
+    br "/main"
+    co "/main"

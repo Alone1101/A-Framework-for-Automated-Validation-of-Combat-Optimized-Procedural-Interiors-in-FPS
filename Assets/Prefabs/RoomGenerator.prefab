@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6759704505055596623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 448411898498836369}
+  - component: {fileID: 6099939493745759317}
+  m_Layer: 0
+  m_Name: RoomGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &448411898498836369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6759704505055596623}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6099939493745759317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6759704505055596623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf5cb7b586da014eaa0384b2f231ff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SingleRoomGenerator
+  roomWidth: 10
+  roomDepth: 8
+  roomHeight: 3
+  wallThickness: 0.2
+  coverCount: 4
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 192
+  fullCoverMaterial: {fileID: 2100000, guid: 3aa0e05d90c62b24fb6b61718349277f, type: 2}
+  partialCoverMaterial: {fileID: 2100000, guid: 65e20e3bbcff6b14787d031caecd0a1b, type: 2}
+  wallMaterial: {fileID: 2100000, guid: f0d19334b4070cf4ab5fb0f97cf05dcf, type: 2}
+  floorMaterial: {fileID: 2100000, guid: f231b89a7c4cde444862c78c00c0fa54, type: 2}
+  mapBorder: {fileID: 0}
+  roomPosition: {x: 0, y: 0}
+  doorWidth: 2
+  doorExclusionRadius: 2
+  _northDoor: 1
+  _eastDoor: 1
+  _southDoor: 0
+  _westDoor: 0
