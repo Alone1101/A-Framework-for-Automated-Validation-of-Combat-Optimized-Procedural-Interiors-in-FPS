@@ -1,0 +1,2 @@
+# A-Framework-for-Automated-Validation-of-Combat-Optimized-Procedural-Interiors-in-FPS
+A high-performance procedural generation framework for competitive FPS arenas. Uses mathematical spatial analysis and heuristic validation to generate, analyze, and cull tactical layouts in sub-75ms execution times. (BSc CS FYP)  Tags/Topics: procedural-generation unity3d csharp level-design spatial-analysis navmesh algorithms
