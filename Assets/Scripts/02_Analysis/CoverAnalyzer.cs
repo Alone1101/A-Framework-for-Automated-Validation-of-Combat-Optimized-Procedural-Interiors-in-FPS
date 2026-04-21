@@ -155,7 +155,7 @@ public class CoverAnalyzer : MonoBehaviour
             }
             else
             {
-                // If the parent is empty then check its childre
+                // If the parent is empty then check its children
                 Collider[] childColliders = cover.GetComponentsInChildren<Collider>();
                 
                 if (childColliders.Length > 0)
@@ -219,8 +219,12 @@ public class CoverAnalyzer : MonoBehaviour
     private bool EvaluateMetrics(CoverMetrics metrics, List<string> issues)
     {
         bool valid = true;
-        if (metrics.CoverDensity < minCoverDensity) { issues.Add("Low Density"); valid = false; }
-        if (metrics.AvgCoverEffectiveness < minCoverEffectiveness) { issues.Add("Low Effectiveness"); valid = false; }
+        if (metrics.CoverDensity < minCoverDensity){ issues.Add("Low Density"); valid = false; }
+        if (metrics.CoverDensity > maxCoverDensity){ issues.Add("High Density"); valid = false; }
+        if (metrics.ClusteringScore < minClusteringScore){ issues.Add("Low Clustering"); valid = false; }
+        if (metrics.ClusteringScore > maxClusteringScore){ issues.Add("High Clustering"); valid = false; }
+        if (metrics.AvgCoverEffectiveness < minCoverEffectiveness){ issues.Add("Low Effectiveness"); valid = false; }
+        if (metrics.DistributionEvenness < minDistributionEvenness){ issues.Add("Low Evenness"); valid = false; }
         return valid;
     }
 

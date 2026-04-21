@@ -176,7 +176,7 @@ public class LevelOrchestrator : MonoBehaviour
         UnityEngine.Debug.Log($"<color=green>[Batch Runner]</color> Finished {batchRunTarget} runs!");
         UnityEngine.Debug.Log($"<color=white>[Time Complexity]</color> Average pure CPU execution time per map: <b>{avgTime:F2} ms</b>");
         UnityEngine.Debug.Log($"<color=white>[Yield Stats]</color> Passed: {_passCount} ({yieldRate:F1}%) | Failed: {batchRunTarget - _passCount}");
-        UnityEngine.Debug.Log($"<color=white>[Failure Breakdown]</color> NavMesh/Connectivity: {_failNav} | Cover Density: {_failCover} | Flow/Sightlines: {_failFlow}");
+        UnityEngine.Debug.Log($"<color=white>[Failure Breakdown]</color> NavMesh/Connectivity: {_failNav} | Cover Constraints: {_failCover} | Flow/Sightlines: {_failFlow}");
     }
 
     public IEnumerator GenerationPipeline()
