@@ -42,7 +42,7 @@ This project was developed as a BSc Computer Science final year project and eval
 
 The framework was evaluated using a 1,000-iteration batch simulation and compared against selected human-authored FPS maps (e.g., `aim_map`, `Warehouse`).
 
-- **Execution Time:** ~71.88 ms per map (CPU time, including generation and validation)  
+- **Execution Time:** ~75.11 ms per map (CPU time, including generation and validation)  
 - **Acceptance Rate:** 46.7% of generated layouts passed all validation criteria  
 - **Filtering Effect:** Validation reduces extreme spatial imbalance (e.g., high visibility asymmetry) and constrains metric distributions  
 
