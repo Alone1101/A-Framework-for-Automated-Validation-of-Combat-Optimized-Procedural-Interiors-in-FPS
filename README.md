@@ -39,6 +39,8 @@ Validation thresholds are empirically calibrated against three human-authored be
 
 <img width="579" height="408" alt="image" src="https://github.com/user-attachments/assets/644fc21e-7cc3-40ae-8bd9-6e27fe39d553" />
 
+<img width="729" height="405" alt="image" src="https://github.com/user-attachments/assets/8da4b294-8326-4e7c-8f37-9ec13bde9b0a" />
+
 <img width="672" height="1015" alt="image" src="https://github.com/user-attachments/assets/25341b3c-78ae-42ca-85fc-4fa6bec98669" />
 
 ---
@@ -49,12 +51,12 @@ The validation suite evaluates each generated layout across 8 quantitative metri
 
 | Metric | Description | Threshold |
 |--------|-------------|-----------|
-| Cover Density (ρ) | Ratio of cover-reserved area to total playable area | 0.04 – 0.15 |
-| Distribution Evenness (U) | Coefficient of variation across 4×4 spatial grid | ≥ 0.40 |
-| Clustering Score (C) | Fraction of covers forming valid tactical networks (3.5m radius) | 0.30 – 0.85 |
-| Cover Effectiveness (E) | Average ray-blocking ratio across standing and crouched stances | ≥ 0.25 |
+| Cover Density ($\rho$) | Ratio of cover-reserved area to total playable area | 0.04 – 0.15 |
+| Distribution Evenness ($U$) | Coefficient of variation across 4×4 spatial grid | ≥ 0.40 |
+| Clustering Score ($C$) | Fraction of covers forming valid tactical networks (3.5m radius) | 0.30 – 0.85 |
+| Cover Effectiveness ($E$) | Average ray-blocking ratio across standing and crouched stances | ≥ 0.25 |
 | Sightline Exposure | Mean isovist-based openness score across navigable nodes | 0.30 – 0.70 |
-| Visibility Balance (Δ) | Asymmetry delta between Team A and Team B exposure territories | ≤ 15% |
+| Visibility Balance ($\Delta$) | Asymmetry delta between Team A and Team B exposure territories | ≤ 15% |
 | Navigable Area Ratio | Walkable surface area relative to total playable bounds | 0.55 – 0.85 |
 | Chokepoint Centrality | Maximum traffic concentration from Monte Carlo path simulation | ≥ 0.15 |
 
