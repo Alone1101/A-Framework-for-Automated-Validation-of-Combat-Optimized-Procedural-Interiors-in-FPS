@@ -13,7 +13,7 @@
 
 <img width="669" height="529" alt="image" src="https://github.com/user-attachments/assets/d35781c6-5175-4a7c-8b35-d2e85c15f408" />
 
-<video src="demo.mp4" autoplay loop muted playsinline width="100%"></video>
+<video src="Demo.mp4" autoplay loop muted playsinline width="100%"></video>
 
 <img width="841" height="801" alt="System Architecture" src="https://github.com/user-attachments/assets/bee6b2ce-dc8e-45a6-a162-588a9ff5c79f" />
 
