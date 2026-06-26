@@ -173,9 +173,7 @@ Assets/
 
 The complete project report including methodology, mathematical metric definitions, and full results is available here:
 
-<!--[Final_Report.pdf](https://github.com/user-attachments/files/28582772/Final_Report.pdf)-->
-
-> *Report link will be added post-graduation.*
+[Final_Report.pdf](https://github.com/user-attachments/files/28582772/Final_Report.pdf)
 
 ---
 
